@@ -15,12 +15,12 @@ else
 
 int DigitNumber (int number)// Function to find number of digit
 {
-int NumberOfDigit=0;
-double Buffer = number;
-while (Buffer>=1)
+int numberOfDigit=0;
+double buffer = number;
+while (buffer>=1)
    {
-    Buffer=Buffer/10;
-    NumberOfDigit++;
+    buffer=buffer/10;
+    numberOfDigit++;
    }
-return NumberOfDigit;
+return numberOfDigit;
 }
